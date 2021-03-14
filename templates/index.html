@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Fridge</title>
+</head>
+<body>
+ <ul id="navigation">
+    {% for item in navigation %}
+        <li><a href="{{ item.href }}">{{ item }}</a></li>
+    {% endfor %}
+    </ul></body>
+</html>
